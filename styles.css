@@ -1,5 +1,11 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin : 200px;
+    border : 1px solid #000000;
+}
 header{
-    background-color: #1d295b;
+    background-color: #131934;
     color: white;
     padding: 10px;
     display: flex;
@@ -13,16 +19,17 @@ header{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    gap : 300px;
 }
-#container-list{
+#container-list ul{
     display: flex;
     flex : 1;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    gap : 20px;
 }
 #container-list ul{
     list-style-type: none;
     padding: 0;
-
 }

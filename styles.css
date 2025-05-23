@@ -68,18 +68,53 @@ main{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding : 30px;
-    padding-left: 100px;
+    padding-left: 40px;
     padding-right: 100px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
     
 }
 .container-figures img{
     background-color: #ffffff;
     outline: 5px solid rgb(9, 148, 240);
-    padding: 30px 30px 30px 30px;
+    padding: 50px 50px 50px 50px;
     border-radius: 10px;
 }
 .container-figures figcaption{
     padding-top: 10px;
+}
+#section-two{
+    background-color: #b7b9c0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    padding: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#section-three{
+    padding: 100px;
+}
+#blue-container{
+    border-radius: 10px;
+    background-color: #1b51f1;
+    color : white;
+    display : flex;
+    flex : 1;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    background-color: #1b51f1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    outline: 2px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+footer{
+    background-color: #181f40;
+    color: white;
+    padding: 10px;
+    text-align: center;
 }
